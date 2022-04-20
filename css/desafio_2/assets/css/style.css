@@ -1,1 +1,63 @@
- 
+*{
+    margin: 0;
+   padding: 0
+}
+body{
+
+font-family: "Lucida Console";
+
+}
+
+section {
+   margin: 15px 0 20px 0;
+
+}
+
+h3{
+   text-decoration: underline;
+   padding-bottom: 12px;
+
+}
+
+.uno{
+    background-color:rgb(162, 163, 163) ;
+    color: aliceblue;
+    padding: 25px;
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+   text-align: center;
+ }
+
+ .uno img {
+     border: 3px solid rgb(73, 71, 71);
+     border-radius: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+ }
+
+
+ .cuerpo{
+    background-color:rgb(113, 114, 114) ;
+    color: aliceblue;
+    padding: 25px;
+    width: 100%;
+    margin: auto;
+ }
+
+ .footer{
+   
+   background-color:rgb(162, 163, 163) ;
+   color: aliceblue;
+   width: 100%;
+   margin: auto;
+   display: inline-block;
+   text-align: center;
+ }
+ .footer a {
+    text-decoration: none;
+ }
+ .footer span {
+    color: #000;
+ }
