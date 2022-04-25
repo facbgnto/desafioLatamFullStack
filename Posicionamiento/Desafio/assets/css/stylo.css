@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: #ffff;
+}
+
+h1 {
+  text-align: center;
+}
+.img_iguana {
+  top: 73px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.características {
+  text-align: center;
+  width: 100%;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenedor > div {
+  width: 50%;
+}
+.text_izd {
+  width: auto;
+  height: auto;
+  text-align: left;
+
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.centrado {
+  margin: auto;
+  width: 75%;
+  :row ;
+}
+.icons-section {
+  padding: 60px 0;
+  text-align: center;
+  font-weight: 300;
+}
+.iconos article {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 24px;
+  width: 33%;
+}
