@@ -1,45 +1,60 @@
 body {
+  font-family: 'Releway' sans-serif;
   background-color: black;
   color: #ffff;
+  width: auto;
 }
 
 h1 {
   text-align: center;
 }
-.img_iguana {
+.img_iguana img {
   top: 73px;
   left: 0px;
-  width: 100%;
+  width: 1280px;
+  height: 727px;
   text-align: center;
 }
 
 .características {
   text-align: center;
-  width: 100%;
+  width: 1280px;
+ 
 }
 
 .contenedor {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 1280px;
 }
 
 .contenedor > div {
   width: 50%;
 }
-.text_izd {
-  width: auto;
-  height: auto;
-  text-align: left;
 
+
+.text_izd  {
+  width: 475px;
+  height: 197px;
+  text-align: left;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  /* padding: 5%; */
+  display: grid;
+ 
+ margin: 45px 655px 75px 150px;
+  
+}
+.img_der img{
+  width: 399px;
+  height: 237px;
+  margin: 45px 150px 46px 731px; 
 }
 .centrado {
   margin: auto;
   width: 75%;
-  :row ;
 }
 .icons-section {
   padding: 60px 0;
