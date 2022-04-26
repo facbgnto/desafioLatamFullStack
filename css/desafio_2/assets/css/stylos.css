@@ -2,9 +2,9 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header{
-    height: 10em;
-    padding: 5em;
-    font-size: 2em;
+    height:200px;
+    padding: 2%;
+    font-size: 1.5em;
     color: aliceblue;
     background-image: url("../img/banner.JPG");
     background-size: cover;
@@ -13,6 +13,8 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+   
+    
 }
 
 .banner-text{
@@ -29,11 +31,13 @@ banner-logo {
 }
 
 .logo{
-    width: 300px;
+    width: 150px;
     align-items: right;
     text-align: right;
     border-radius: 10%; 
     float: right;
+    padding-top: 2%;
+    padding-right: 3%;
 }
 
 .products{
@@ -41,19 +45,18 @@ banner-logo {
     padding-bottom: 5%;
     width: 80%;
     margin: auto;
-    
 }
 
 .products table{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
+    font-size: 2em;
 }
 
 .products img{
-    width: 200px;
-    border: solid 2px rgb(161, 20, 20);
+    width: 250px;
+    height: 250px;
     border-radius: 10%;
 }
 
@@ -64,4 +67,9 @@ footer{
     color: white;
     text-align: center;
     font-weight: 900;
+    font-size: 1.5em;
+}
+footer img{
+    height: 30px;
+    width: 30px;
 }
