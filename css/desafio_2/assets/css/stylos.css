@@ -51,7 +51,8 @@ margin-right: auto;
 
 .products img{
     width: 200px;
-    border: solid 2px #ddd;
+    border: solid 2px rgb(161, 20, 20);
+    border-radius: 10%;
 }
 
 footer{
