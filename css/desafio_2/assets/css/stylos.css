@@ -37,6 +37,8 @@ banner-logo {
 }
 
 .products{
+    padding-top:5%;
+    padding-bottom: 5%;
     width: 80%;
     margin: auto;
     
@@ -45,7 +47,7 @@ banner-logo {
 .products table{
     text-align: center;
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
 
 }
 
