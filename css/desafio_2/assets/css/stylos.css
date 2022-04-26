@@ -58,10 +58,12 @@ banner-logo {
     width: 250px;
     height: 250px;
     border-radius: 10%;
+    border: rgb(161, 20, 20) solid 4px;
 }
 
 footer{
     height: 3em;
+
     line-height: 3em;
     background-color: rgb(161, 20, 20);
     color: white;
