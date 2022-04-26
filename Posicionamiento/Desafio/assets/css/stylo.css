@@ -2,68 +2,144 @@ body {
   font-family: 'Releway' sans-serif;
   background-color: black;
   color: #ffff;
-  width: auto;
+  width: 100%;
+
+  
+}
+header{
+  width: 100%;
+  height: 100%;
+  border: rgb(0, 255, 234) solid 2px;
 }
 
 h1 {
+  font-size: 3em;
   text-align: center;
 }
+.img_iguana{
+  width: 100%;
+  height: 100%;
+}
+
 .img_iguana img {
-  top: 73px;
-  left: 0px;
-  width: 1280px;
-  height: 727px;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
 .características {
   text-align: center;
-  width: 1280px;
- 
+
+
 }
 
 .contenedor {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1280px;
-}
-
-.contenedor > div {
-  width: 50%;
+  display: block;
+  position: relative;
+  width:  100%;
+  height: 700px;
+  border: red solid 2px;
+  float: center;
 }
 
 
 .text_izd  {
-  width: 475px;
-  height: 197px;
-  text-align: left;
-  letter-spacing: 0px;
+  display: block;
+  position: relative;
+  left: 5%;
+  top: 15%;
+  width: 40%;
+  height: auto;
   color: #ffffff;
-  opacity: 1;
-  /* padding: 5%; */
-  display: grid;
- 
- margin: 45px 655px 75px 150px;
-  
+  font-size: 2em;
+  border: red solid 2px;
 }
+.img_der{
+display: block;
+position: absolute;
+right: 5%;
+top: 10%;
+width: 45%;
+height: 550px;
+border: blue solid 2px;
+}
+
 .img_der img{
-  width: 399px;
-  height: 237px;
-  margin: 45px 150px 46px 731px; 
+  width: 100%;
+  height: 100%;
 }
-.centrado {
-  margin: auto;
-  width: 75%;
+
+.caract-section{
+background-color: #1E1A13;
+display: block;
+position: relative;
+height: 300px;
+text-align: center;
+border: red solid 2px;
 }
-.icons-section {
-  padding: 60px 0;
-  text-align: center;
-  font-weight: 300;
+
+.caract-section h1{
+font-size: 3em;
 }
-.iconos article {
+
+ul>li {
   display: inline-block;
-  margin: 0 auto;
-  font-size: 24px;
-  width: 33%;
+  list-style: none;
+  margin: 0 5%;
+}
+
+ul>li>i {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 3%;
+}
+
+ul>li>span {
+  display: block;
+  margin-top: auto;
+  font-size: 2.4em;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.imagenes{
+  display: block;
+  position: relative;
+  height: 700px;
+  border: red solid 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.imagenes .galeria{
+  display: inline-block;
+  width: 30%;
+  height: 80%;
+  border: blue solid 2px;
+  position: relative;
+  margin-left: 1%;
+  top: 10%;
+}
+.galeria img{
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #1E1A13;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+
+footer>p {
+  font-size: 40px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #fff;
 }
