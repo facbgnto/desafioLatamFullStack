@@ -1,24 +1,23 @@
 body {
-  font-family: 'Releway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: black;
   color: #ffff;
   width: 100%;
   margin: 0;
   padding: 0;
-
-  
 }
-header{
+
+header {
   width: 100%;
   height: 100%;
-  border: rgb(0, 255, 234) solid 2px;
 }
 
 h1 {
   font-size: 3em;
   text-align: center;
 }
-.img_iguana{
+
+.img_iguana {
   width: 100%;
   height: 100%;
 
@@ -32,57 +31,49 @@ h1 {
 
 .características {
   text-align: center;
-
-
 }
 
 .contenedor {
   display: block;
-  position: relative;
-  width:  100%;
-  height: 700px;
-  border: red solid 2px;
+  width: 100%;
   float: center;
+  padding: 1.5%;
 }
 
 
-.text_izd  {
+.text_izd {
+  display: inline-block;
+  margin-left: 5%;
+  padding-top: 2%;
+  width: 40%;
+  color: #ffffff;
+  font-size: 1.2em;
+
+  vertical-align: text-top;
+}
+
+.img_der {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 45%;
+}
+
+.img_der img {
+  width: 100%;
+}
+
+.caract-section {
+  padding: 1.5%;
+  background-color: #1E1A13;
   display: block;
   position: relative;
-  left: 5%;
-  top: 15%;
-  width: 40%;
-  height: auto;
-  color: #ffffff;
-  font-size: 2em;
-  border: red solid 2px;
-}
-.img_der{
-display: block;
-position: absolute;
-right: 5%;
-top: 10%;
-width: 45%;
-height: 550px;
-border: blue solid 2px;
+  height: 300px;
+  text-align: center;
 }
 
-.img_der img{
-  width: 100%;
-  height: 100%;
-}
+.caract-section h1 {
 
-.caract-section{
-background-color: #1E1A13;
-display: block;
-position: relative;
-height: 300px;
-text-align: center;
-border: red solid 2px;
-}
-
-.caract-section h1{
-font-size: 3em;
+  font-size: 3em;
 }
 
 ul>li {
@@ -106,25 +97,24 @@ ul>li>span {
   margin-top: 20px;
 }
 
-.imagenes{
+.imagenes {
   display: block;
   position: relative;
-  height: 700px;
-  border: red solid 2px;
   width: 100%;
   text-align: center;
 }
 
-.imagenes .galeria{
+.imagenes .galeria {
   display: inline-block;
-  width: 30%;
-  height: 80%;
-  border: blue solid 2px;
+  height: 200px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   position: relative;
   margin-left: 1%;
-  top: 10%;
+
 }
-.galeria img{
+
+.galeria img {
   height: 100%;
   width: 100%;
 }
@@ -139,7 +129,7 @@ footer {
 }
 
 footer>p {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 footer p a {
