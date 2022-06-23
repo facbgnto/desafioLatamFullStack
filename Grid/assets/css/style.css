@@ -16,8 +16,15 @@ body{
 }
 
 nav{
+    display: flex;
     grid-area: nav;
     border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+nav h1{
+    margin-top: 20px;
 }
 
 .menu{
@@ -40,6 +47,7 @@ footer{
 nav{
     background-color: #00A19D;
 }
+
 .menu{
     display: flex;
     background-color: #FFB344;
@@ -86,6 +94,24 @@ nav{
     text-align: center;
 }
 
+.boton{
+    height: 20px;
+}
+
+button{
+height: 100%;
+width: 100%;
+background-color: #E05D5D;
+color: #FFF8E5;
+
+}
+
 footer{
     background-color: #E05D5D;
+    color:aliceblue;
+    text-align: center;
+}
+
+footer h3{
+    margin-top: 15px;
 }
