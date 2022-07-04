@@ -1,3 +1,6 @@
+*.pdf
+**/*.pdf
+
 # compressed files
 *.7z
 **/*.7z
