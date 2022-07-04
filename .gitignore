@@ -9,6 +9,9 @@
 # cache 
 .vscode
 **/.vscode/
+.github
+
+**/.github
 
 
 
