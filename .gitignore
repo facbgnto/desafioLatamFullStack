@@ -1,0 +1,11 @@
+# compressed files
+*.7z
+**/*.7z
+*.zip
+**/*.zip
+# cache 
+.vscode
+**/.vscode/
+
+
+
